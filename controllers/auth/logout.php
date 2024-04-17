@@ -1,2 +1,2 @@
 <?php
-echo "Hello, logout";
+echo "Logout bez view";
