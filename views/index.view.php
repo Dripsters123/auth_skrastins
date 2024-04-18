@@ -1,4 +1,6 @@
-<?php require "views/components/head.php" ?>
-<?php require "views/components/navbar.php" ?>
-<h1>Hello!</h1>
-<?php require "views/components/footer.php" ?>
+<h1>Secret dashboard</h1>
+
+
+<form action="/logout" method="POST">
+    <button>logout</button>
+</form>

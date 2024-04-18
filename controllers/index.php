@@ -1,3 +1,5 @@
 <?php
-$title = "Galvenā lapa ";
+
+auth();
+
 require "views/index.view.php";
