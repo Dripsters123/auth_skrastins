@@ -1,4 +1,4 @@
-<?php require "views/components/head.php" ?>
+<?php require "../views/components/head.php" ?>
 <h1>Register</h1>
 
 <form method="POST">
@@ -19,4 +19,4 @@
   <button>Register</button>
 </form>
 
-<?php require "views/components/footer.php" ?>
+<?php require "../views/components/footer.php" ?>

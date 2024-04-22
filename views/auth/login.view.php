@@ -1,4 +1,4 @@
-<?php require "views/components/head.php" ?>
+<?php require "../views/components/head.php" ?>
 <h1>Login</h1>
 
 <form method="POST">
@@ -23,4 +23,4 @@
 <?php if (isset($_SESSION["flash"])) { ?>
   <p><?= $_SESSION["flash"] ?></p>
 <?php } ?>
-<?php require "views/components/footer.php" ?>
+<?php require "../views/components/footer.php" ?>
